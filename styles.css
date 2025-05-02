@@ -5,7 +5,7 @@ body {
 
 .container {
   display: flex;
-  max-width: 1500px;
+  max-width: 900px;
   height: auto;
   border: 1px solid black;
   margin: 10px auto;
@@ -14,7 +14,7 @@ body {
 .container2 {
   display: flex;
   justify-content: space-between;
-  max-width: 1500px;
+  max-width: 900px;
   height: auto;
   border: 1px solid black;
   margin: 10px auto;
@@ -23,7 +23,7 @@ body {
 .nav {
   width: 100%;
   padding: 16px 0;
-  background-color: #199BCA;
+  background-color: #199bca;
 }
 
 .nav ul li {
@@ -38,22 +38,30 @@ a {
 }
 
 .cards_field {
+  width: 900px;
   display: flex;
   text-align: center;
   align-items: center;
+  justify-content: space-between;
   border: 1px solid black;
 }
 
 .leaders {
-  width: 400px;
+  padding-left: 20px;
+  width: 200px;
   border: 1px solid black;
 }
 
 .cards {
-  margin: 10px 10px 10px 10px;
-  width: 300px;
-  height: 500px;
-  background-color: #199BCA;
+  display: flex;
+  width: 150px;
+  height: 250px;
+  background-color: #199bca;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px 0 20px;
+  margin: 0 5px 0 5px;
 }
 
 .cards:hover {
@@ -67,4 +75,9 @@ a {
 
 .leaders ul li {
   list-style: none;
+}
+
+.menu_field {
+  width: 150px;
+  text-align: center;
 }
