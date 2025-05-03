@@ -4,42 +4,56 @@ body {
 }
 
 .header {
-  padding: 10px;
+  /* width: 100%; */
+  padding: 20px;
 }
 
 .container {
   max-width: 900px;
-  height: auto;
+  /* height: auto; */
   border: 1px solid black;
   margin: 0 auto;
+  padding: 5px 5px 20px 5px;
 }
 
 .container2 {
   display: flex;
   max-width: 900px;
-  height: auto;
-  border: 1px solid black;
-  margin: 0 auto;
-  justify-content: space-between;
+  /* height: auto; */
+  /* border: 1px solid black; */
+  margin: 25px auto;
+  justify-content: center;
   align-items: center;
   text-align: center;
+  /* padding: 25px; */
 }
+
 
 .nav ul {
   display: flex;
   justify-content: space-between;
   margin: 0;
   padding: 0;
+  text-align: center;
+  align-items: center;
+  list-style: none;
+}
+
+li {
+  list-style: none;
 }
 
 .nav ul li {
   display: inline-block;
+  text-align: center;
+  align-items: center;
+  list-style: none;
   /* justify-content: space-between; */
 }
 
 .cards {
-  width: 50px;
-  height: 100px;
+  width: 70px;
+  height: 140px;
   background-color: aquamarine;
   margin: 5px 5px 5px 5px;
   align-items: center;
