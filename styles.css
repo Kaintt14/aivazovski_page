@@ -21,7 +21,7 @@ body {
   max-width: 900px;
   /* height: auto; */
   /* border: 1px solid black; */
-  margin: 25px auto;
+  margin: 25px 25px;
   justify-content: center;
   align-items: center;
   text-align: center;
